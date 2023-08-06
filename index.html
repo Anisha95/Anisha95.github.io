@@ -3,13 +3,146 @@
 <head>
     <title>My Resume</title>
     <style>
-        /* CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 0;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 0;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        .section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .section ul li {
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
-    <h1>Anisha Pal</h1>
-    <p>Email: pal.anisha26@gmail.com</p>
-    <p>Phone: +91 9123312970</p>
-    <!--more sections as needed -->
+    <header>
+        <h1>Anisha Pal</h1>
+        <div class="contact-info">
+            <p>Email: pal.anisha26@gmail.com</p>
+            <p>Phone: +91 9123312970</p>
+            <p>GitHub: github.com/Anisha95</p>
+        </div>
+    </header>
+    
+    <div class="section">
+        <h2>Summary</h2>
+        <p>
+    Frontend developer with a proven experience at three startups helping in building apps and
+    maintaining a better codebase for reusability. Capable of continuous learning and implementing while
+    still nurturing juniors. Eager to tackle more complex problems and continue to find ways to maximize
+    user efficiency.
+        </p>
+    </div>
+    
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Computer Science</strong> - Neotia Institute of Technology Management and Science, 2017
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Software Engineer</strong> - Rolling Arrays Private Limited, India, Nov' 21 - Present
+                <p>
+                    - Developed and maintained responsive websites using ReactJS, Redux-Toolkit, Redux-Saga middleware, Bootstrap, antd.
+                    <br>
+                    - Optimized the code which helped to achieve data from API response faster by around 50%
+                    (with the help of backend team) from the frontend side.
+                    <br>
+                    - Implemented frontend unit testing using JEST , React-Testing-Library / Enzyme.
+                    <br>
+                    - practicing writing clean and maintanable codes.
+                </p>
+            </li>
+             <li>
+                <strong>Frontend Developer</strong> - Radarr Technologies, India, April' 21 - Oct'21
+                <p>
+                    - Developed and maintained responsive websites using ReactJS, Redux-Toolkit, Redux-Thunk middleware, semantic css, scss by collaborating with the UI/UX designer.
+                    <br>
+                    - Collaborated with stakeholders during development processes and converted the existing
+                    core PHP html files to implementing ReactJS.
+                    <br>
+                    - Researched emerging web technologies for developing Analysis dashboard using d3 , c3 charts
+                    and react-highcharts.
+                </p>
+            </li>
+            <li>
+                <strong>Frontend Engineer</strong> - Reybhav Technologies Private Limited, India, Oct' 19 - Mar'21
+                <p>
+                    - Worked for startup product ShopG (with 3 front end developers altogether) , an e-commerce
+                   app using React Native.
+                    <br>
+                    - Implemented various features like listing the apps on the basis of categories, then adding to
+                    cart to final purchase steps.
+                    <br>
+                    - Tracking user’s performance and bug reports through Firebase Crashlytics.
+                </p>
+            </li>
+             <li>
+                <strong>Junior Full Stack Developer</strong> - Pixlie Web Solutions Private Limited, India, Feb' 19 - Sept'19
+                <p>
+                    - Involved in developing product Travlyng (with 3 developers including the founder).
+                    <br>
+                    - Used ReactJS at the Front end and Python Django at the back-end.
+                    <br>
+                    - Designed reusable and reliable code
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS, SCSS</li>
+            <li>JavaScript, ReactJS, Redux-Toolkit, Unit and Component Testing in Jest, Cypress</li>
+            <li>Git</li>
+            <li>Problem Solving</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Achievement</h2>
+        <p>
+            - Rolling Arrays - Champions at Work (https://credsverse.com/credentials/ec73c0f8-6722-42c5-bcf2-85c88d834c26)
+            <br>
+        </p>
+    </div>
 </body>
 </html>
